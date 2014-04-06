@@ -13,6 +13,8 @@ Designed for Mac OSX-10.6+ and compatible with Linux/Ubuntu-12.04+ and Debian (b
 
 ##Getting Started
 
+![screenshot](images/screenshot_01.png)
+
 On launch, the so called Front-Page is displayed. From there, *Drag &amp; Drop* a file into the page footer to open it (or press Ctrl-O to use a file browser). Now you can edit the file then use buttons in the page header to Save / Run / Preview its content or result according to the document type: Script / HTML or Markdown.
 
 Beyond this basic editor usage, **nodEdit** provides some additional functions.
