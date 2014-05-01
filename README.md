@@ -9,7 +9,7 @@ The goal of this development was to provide *just what you need and no more*, av
 
 ##Main features
 
-![Screenshot](images/screenshot.png)
+![Screenshot](images/screenshot_01.png)
 
 - Drag &amp; drop file to open.
 - Drag &amp; drop folder to create a README.md file in it.
