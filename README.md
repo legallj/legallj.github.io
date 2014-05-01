@@ -1,11 +1,25 @@
 #nodEdit
-v0.2.1 dated 2014-04-05
+v0.2.1 dated 2014-05-01
 
 > Minimal IDE dedicated to single page application (SPA) development under NodeJS with WebKit. This simple tool implements the read - execute - print - loop (REPL) paradigme using only HTML5, CSS3 and Javascript to develop/debug Shell and Python scripts, HTML and NodeJS code as well as Markdown or plain text documentation files.
 
 ##Rationales
 
 The goal of this development was to provide *just what you need and no more*, avoiding clobbered graphic user interface (no Eclipse like GUI) and nearly useless exotic functions (like FTP and SVN support). Don't forget the UNIX golden rule as in the early 70's and keep in mind that small is beautiful..!
+
+##Main features
+
+- Drag &amp; drop file to open.
+- Drag &amp; drop folder to create a README.md file in it.
+- Create new file from various snippet types.
+- Provide formatting helper functions specific to file type.
+- List functions and variables in Javascript files with line number (goto line included).
+- Execute Shell, Python, etc. scripts and *Compile &amp; Run* C and Java programs.
+- Edit remote file using host <code>scp</code> (no password management).
+- Preview Markdown with code blocks highlighting.
+- Preview HTML in a separate window and refresh rendering on save.
+- Convert *SCSS* to *CSS* using host <code>sassc</code> tool.
+- Include help page (in a separate window) and video tutorials (in default WebBrowser).
 
 ##Platform
 
