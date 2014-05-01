@@ -30,7 +30,7 @@
         <h1>
 <a name="nodedit" class="anchor" href="#nodedit"><span class="octicon octicon-link"></span></a>nodEdit</h1>
 
-<p>v0.2.1 dated 2014-04-05</p>
+<p>v0.2.1 dated 2014-05-01</p>
 
 <blockquote>
 <p>Minimal IDE dedicated to single page application (SPA) development under NodeJS with WebKit. This simple tool implements the read - execute - print - loop (REPL) paradigme using only HTML5, CSS3 and Javascript to develop/debug Shell and Python scripts, HTML and NodeJS code as well as Markdown or plain text documentation files.</p>
@@ -42,13 +42,28 @@
 <p>The goal of this development was to provide <em>just what you need and no more</em>, avoiding clobbered graphic user interface (no Eclipse like GUI) and nearly useless exotic functions (like FTP and SVN support). Don't forget the UNIX golden rule as in the early 70's and keep in mind that small is beautiful..!</p>
 
 <h2>
+<a name="main-features" class="anchor" href="#main-features"><span class="octicon octicon-link"></span></a>Main features</h2>
+
+<ul>
+<li>Drag &amp; drop file to open.</li>
+<li>Drag &amp; drop folder to create a README.md file in it.</li>
+<li>Create new file from various snippet types.</li>
+<li>Provide formatting helper functions specific to file type.</li>
+<li>List functions and variables in Javascript files with line number (goto line included).</li>
+<li>Execute Shell, Python, etc. scripts and <em>Compile &amp; Run</em> C and Java programs.</li>
+<li>Edit remote file using host <code>scp</code> (no password management).</li>
+<li>Preview Markdown with code blocks highlighting.</li>
+<li>Preview HTML in a separate window and refresh rendering on save.</li>
+<li>Convert <em>SCSS</em> to <em>CSS</em> using host <code>sassc</code> tool.</li>
+<li>Include help page (in a separate window) and video tutorials (in default WebBrowser).</li>
+</ul><h2>
 <a name="platform" class="anchor" href="#platform"><span class="octicon octicon-link"></span></a>Platform</h2>
 
 <p>Designed for Mac OSX-10.6+ and compatible with Linux/Ubuntu-12.04+ and Debian (but need some node-webkit tweaks to run under Debian-7)</p>
 
 <h2>
 <a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
-<img src="images/screenshot_01.png">
+
 <p>On launch, the so called Front-Page is displayed. From there, <em>Drag &amp; Drop</em> a file into the page footer to open it (or press Ctrl-O to use a file browser). Now you can edit the file then use buttons in the page header to Save / Run / Preview its content or result according to the document type: Script / HTML or Markdown.</p>
 
 <p>Beyond this basic editor usage, <strong>nodEdit</strong> provides some additional functions.
